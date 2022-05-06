@@ -2582,7 +2582,7 @@ html.no-csstransitions .hero-content {
   -webkit-transform: translate3d(50%, 0, 0);
   transform: translate3d(50%, 0, 0);
   position: absolute;
-  bottom: -20rem;
+  bottom: -15rem;
   left: 20px;
 }
 
@@ -3017,7 +3017,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-  padding-top: 6rem;
+  padding-top: 4rem;
   background-color: #ffffff;
 }
 
@@ -3159,8 +3159,8 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-cta {
-  padding-top: 5rem;
-  padding-bottom: 10rem;
+  padding-top: 4rem;
+  padding-bottom: 13rem;
   background-color: #ffffff;
   font-size: 2.2rem;
   line-height: 1.818;
