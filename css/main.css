@@ -1439,7 +1439,7 @@ input::-moz-focus-inner {
 
 .section-intro {
   position: relative;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .section-intro .display-1 {
@@ -2771,7 +2771,7 @@ html.no-csstransitions .hero-content {
   padding-top: 20rem;
   background-color: #ffffff;
   position: relative;
-  padding-bottom: 9rem;
+  padding-bottom: 8rem;
 }
 
 .s-portfolio::before {
@@ -3017,7 +3017,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-  padding-top: 4rem;
+  padding-top: 3rem;
   background-color: #ffffff;
 }
 
