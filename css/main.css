@@ -2391,7 +2391,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-bottom: 16rem;
+  padding-bottom: 10rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -2401,9 +2401,9 @@ html.no-csstransitions .hero-content {
 }
 
 .s-about__section--profile {
-  padding-top: 28rem;
-  padding-bottom: 4rem;
-  min-height: 108rem;
+  padding-top: 20rem;
+  padding-bottom: 13rem;
+
   position: relative;
 }
 
@@ -2557,8 +2557,8 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 24rem;
-  padding-bottom: 20rem;
+  padding-top: 20rem;
+  padding-bottom: 10rem;
   background-color: #1d1b37;
   position: relative;
 }
@@ -2768,10 +2768,10 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-portfolio {
-  padding-top: 24rem;
+  padding-top: 20rem;
   background-color: #ffffff;
   position: relative;
-  padding-bottom: 4rem;
+  padding-bottom: 9rem;
 }
 
 .s-portfolio::before {
@@ -3017,7 +3017,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-  padding-top: 9rem;
+  padding-top: 6rem;
   background-color: #ffffff;
 }
 
@@ -3159,8 +3159,8 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-cta {
-  padding-top: 12rem;
-  padding-bottom: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
   background-color: #ffffff;
   font-size: 2.2rem;
   line-height: 1.818;
@@ -3208,7 +3208,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-  padding-top: 24rem;
+  padding-top: 20rem;
   padding-bottom: 8rem;
   background-color: #0b0a15;
   position: relative;
