@@ -1600,8 +1600,8 @@ input::-moz-focus-inner {
 }
 
 .s-header.sticky .header-logo img {
-  width: 35px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
 }
 
 .s-header.sticky .header-content .btn {
@@ -1648,9 +1648,9 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 41px;
-  height: 44px;
-  vertical-align: bottom;
+  width: 42px;
+  height: 42px;
+  vertical-align: baseline;
 }
 
 /* -------------------------------------------------------------------
@@ -1833,8 +1833,8 @@ input::-moz-focus-inner {
   }
 
   .header-logo img {
-    width: 37px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
   }
 
   .header-content {
