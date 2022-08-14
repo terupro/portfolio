@@ -3029,6 +3029,9 @@ html.no-csstransitions .hero-content {
   .folio-item__info {
     top: 2rem;
   }
+  .folio-item__project-link {
+    bottom: 3rem;
+  }
 }
 
 /* ===================================================================
