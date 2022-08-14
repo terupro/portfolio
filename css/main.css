@@ -1529,7 +1529,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width: 500px) {
   .display-1 {
-    font-size: 4rem;
+    font-size: 3.8rem !important;
   }
 }
 
