@@ -1,31 +1,24 @@
-
-
-
 /* ===================================================================
  * # custom block grid STACK breakpoints
  *
  * ------------------------------------------------------------------- */
- @media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .block-1000-full > .column {
     -ms-flex: 0 0 100%;
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
   }
-
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .block-900-full > .column {
     -ms-flex: 0 0 100%;
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
   }
-
 }
-
-
 
 /* ===================================================================
  * # base style overrides
@@ -35,11 +28,10 @@ html {
   font-size: 10px;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   html {
     font-size: 9.444444444444444px;
   }
-
 }
 
 html,
@@ -80,14 +72,23 @@ a:active {
   outline: 0;
 }
 
-
-
 /* ===================================================================
  * # typography & general theme styles
  * 
  * ------------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Gothic A1", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: ui-sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #000000;
@@ -96,68 +97,95 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-rendering: optimizeLegibility;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
   margin-top: 6rem;
   margin-bottom: 1.6rem;
 }
 
-@media screen and (max-width:600px) {
-  h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+@media screen and (max-width: 600px) {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4 {
     margin-top: 5.6rem;
   }
-
 }
 
-h5, .h5, h6, .h6 {
+h5,
+.h5,
+h6,
+.h6 {
   margin-top: 4.8rem;
   margin-bottom: 1.2rem;
 }
 
-@media screen and (max-width:600px) {
-  h5, .h5, h6, .h6 {
+@media screen and (max-width: 600px) {
+  h5,
+  .h5,
+  h6,
+  .h6 {
     margin-top: 4.4rem;
     margin-bottom: 0.8rem;
   }
-
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 3.6rem;
   line-height: 1.222;
 }
 
-@media screen and (max-width:600px) {
-  h1, .h1 {
+@media screen and (max-width: 600px) {
+  h1,
+  .h1 {
     font-size: 3.3rem;
   }
-
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 3.2rem;
   line-height: 1.25;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 2.4rem;
   line-height: 1.167;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 2.1rem;
   line-height: 1.333;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 1.8rem;
   line-height: 1.333;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 1.6rem;
   line-height: 1.5;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
+}
+p {
+  font-family: ui-sans-serif !important;
 }
 
 p img {
@@ -165,7 +193,7 @@ p img {
 }
 
 p.lead {
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.833;
@@ -173,18 +201,16 @@ p.lead {
   color: #000000;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   p.lead {
     font-size: 2.2rem;
   }
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   p.lead {
     font-size: 2.1rem;
   }
-
 }
 
 em,
@@ -197,13 +223,13 @@ b {
 
 em,
 i {
-  font-family: "Martel", serif;
+  font-family: ui-sans-serif;
   font-style: italic;
 }
 
 strong,
 b {
-  font-family: "Martel", serif;
+  font-family: ui-sans-serif;
   font-weight: 700;
 }
 
@@ -219,22 +245,20 @@ blockquote {
   position: relative;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   blockquote {
     padding: 3.2rem 3.2rem;
   }
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   blockquote {
     padding: 2.8rem 2.8rem;
   }
-
 }
 
 blockquote p {
-  font-family: "Martel", serif;
+  font-family: ui-sans-serif;
   font-weight: 400;
   padding: 0;
   font-size: 2.8rem;
@@ -242,23 +266,21 @@ blockquote p {
   color: #000000;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   blockquote p {
     font-size: 2.6rem;
   }
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   blockquote p {
     font-size: 2.2rem;
   }
-
 }
 
 blockquote cite {
   display: block;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   line-height: 1.333;
@@ -276,11 +298,11 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "Martel", serif;
+  font-family: ui-sans-serif;
   font-weight: 700;
   font-variant: small-caps;
   text-transform: lowercase;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   color: #7e7e7e;
 }
 
@@ -300,8 +322,8 @@ pre {
 
 code {
   font-size: 1.4rem;
-  margin: 0 .2rem;
-  padding: .4rem .8rem;
+  margin: 0 0.2rem;
+  padding: 0.4rem 0.8rem;
   white-space: nowrap;
   background: #efefef;
   border: 1px solid #d3d3d3;
@@ -366,20 +388,20 @@ ul {
 }
 
 ul li {
-  padding-left: .4rem;
+  padding-left: 0.4rem;
 }
 
 ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin: .8rem 0 .8rem 1.6rem;
+  margin: 0.8rem 0 0.8rem 1.6rem;
 }
 
 ul.disc li {
   display: list-item;
   list-style: none;
-  padding: 0 0 0 .8rem;
+  padding: 0 0 0 0.8rem;
   position: relative;
 }
 
@@ -444,7 +466,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   border-collapse: collapse;
 }
 
@@ -457,7 +479,7 @@ td {
 
 th {
   color: #000000;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 700;
 }
 
@@ -504,8 +526,6 @@ form,
 .ss-custom-select {
   margin-bottom: 3.2rem;
 }
-
-
 
 /* ===================================================================
  * # preloader
@@ -590,7 +610,6 @@ form,
   80% {
     top: 0;
   }
-
 }
 
 @keyframes dots-jump {
@@ -605,7 +624,6 @@ form,
   80% {
     top: 0;
   }
-
 }
 
 /* dots fade */
@@ -638,7 +656,6 @@ form,
   80% {
     opacity: 1;
   }
-
 }
 
 @keyframes dots-fade {
@@ -653,7 +670,6 @@ form,
   80% {
     opacity: 1;
   }
-
 }
 
 /* dots pulse */
@@ -689,7 +705,6 @@ form,
     -webkit-transform: scale(1);
     transform: scale(1);
   }
-
 }
 
 @keyframes dots-pulse {
@@ -707,10 +722,7 @@ form,
     -webkit-transform: scale(1);
     transform: scale(1);
   }
-
 }
-
-
 
 /* ===================================================================
  * # forms
@@ -735,14 +747,14 @@ select {
   border: 0;
   outline: none;
   color: #000000;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-size: 1.6rem;
   line-height: 3.2rem;
   max-width: 100%;
   background: transparent;
   border-bottom: 1px solid #d3d3d3;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .ss-custom-select {
@@ -755,7 +767,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   text-indent: 0.01px;
-  text-overflow: '';
+  text-overflow: "";
   margin: 0;
   line-height: 3rem;
   vertical-align: middle;
@@ -773,7 +785,7 @@ select {
 .ss-custom-select::after {
   border-bottom: 2px solid #000000;
   border-right: 2px solid #000000;
-  content: '';
+  content: "";
   display: block;
   height: 8px;
   width: 8px;
@@ -809,10 +821,10 @@ select:focus {
 
 label,
 legend {
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   line-height: 1.714;
   color: #000000;
   display: block;
@@ -834,32 +846,28 @@ label > input[type="checkbox"],
 label > input[type="radio"] {
   margin: 0;
   position: relative;
-  top: .2rem;
+  top: 0.2rem;
 }
 
 /* ------------------------------------------------------------------- 
  * ## Style Placeholder Text
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
-
   /* WebKit, Blink, Edge */
   color: #8c8c8c;
 }
 
 :-ms-input-placeholder {
-
   /* Internet Explorer 10-11 */
   color: #8c8c8c;
 }
 
 ::-ms-input-placeholder {
-
   /* Microsoft Edge */
   color: #8c8c8c;
 }
 
 ::placeholder {
-
   /* Most modern browsers support this now. */
   color: #8c8c8c;
 }
@@ -873,11 +881,9 @@ label > input[type="radio"] {
  * ------------------------------------------------------------------- */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
-input:-webkit-autofill:focus
-input:-webkit-autofill,
+input:-webkit-autofill:focus input:-webkit-autofill,
 textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover
-textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
@@ -885,8 +891,6 @@ select:-webkit-autofill:focus {
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
-
-
 
 /* ===================================================================
  * # buttons
@@ -898,22 +902,22 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "Work Sans", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 600;
   font-size: 1.3rem;
   text-transform: uppercase;
-  letter-spacing: .6rem;
+  letter-spacing: 0.6rem;
   height: 6rem;
   line-height: 5.6rem;
   padding: 0 3.2rem;
-  margin: 0 .4rem 1.6rem 0;
+  margin: 0 0.4rem 1.6rem 0;
   color: #000000;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #d3d3d3;
@@ -968,6 +972,7 @@ input[type="button"].btn--primary:focus {
 button.h-full-width {
   width: 100%;
   margin-right: 0;
+  border-radius: 6px;
 }
 
 .btn--small,
@@ -1015,8 +1020,6 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-
-
 /* =================================================================== 
  * # additional components
  *
@@ -1027,7 +1030,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .drop-cap:first-letter {
   float: left;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 700;
   font-size: 5.334em;
   line-height: 1;
@@ -1157,7 +1160,7 @@ input::-moz-focus-inner {
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 700;
   border: none;
   color: #000000;
@@ -1169,8 +1172,8 @@ input::-moz-focus-inner {
 
 .stats-tabs li a em {
   display: block;
-  margin: .8rem 0 0 0;
-  font-family: "Gothic A1", sans-serif;
+  margin: 0.8rem 0 0 0;
+  font-family: ui-sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
@@ -1186,7 +1189,7 @@ input::-moz-focus-inner {
 }
 
 .skill-bars li {
-  height: .4rem;
+  height: 0.4rem;
   background: #c3c3c3;
   width: 100%;
   margin-bottom: 6.8rem;
@@ -1198,11 +1201,11 @@ input::-moz-focus-inner {
   position: absolute;
   left: 0;
   top: -4rem;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-size: 1.4rem;
   line-height: 2.4rem;
 }
@@ -1218,12 +1221,12 @@ input::-moz-focus-inner {
   right: 0;
   top: -3.6rem;
   display: block;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   color: #ffffff;
   font-size: 1.1rem;
   line-height: 1;
   background: #000000;
-  padding: .8rem .8rem;
+  padding: 0.8rem 0.8rem;
   border-radius: 3px;
 }
 
@@ -1345,7 +1348,7 @@ input::-moz-focus-inner {
 
 .alert-box__close::before,
 .alert-box__close::after {
-  content: '';
+  content: "";
   position: absolute;
   display: inline-block;
   width: 2px;
@@ -1404,8 +1407,6 @@ input::-moz-focus-inner {
   background-color: #827217;
 }
 
-
-
 /* ===================================================================
  * # Common and Reusable Styles
  *
@@ -1426,7 +1427,7 @@ input::-moz-focus-inner {
   font-size: 1.4rem;
   line-height: 1.286;
   text-transform: uppercase;
-  letter-spacing: .4em;
+  letter-spacing: 0.4em;
   margin-top: 0;
   margin-bottom: 6rem;
   color: #f9861a;
@@ -1444,6 +1445,7 @@ input::-moz-focus-inner {
 
 .section-intro .display-1 {
   margin-top: 0;
+  font-family: ui-sans-serif;
 }
 
 .section-intro .subhead,
@@ -1457,10 +1459,10 @@ input::-moz-focus-inner {
   font-weight: 600;
   font-size: 30rem;
   line-height: 1;
-  letter-spacing: -.045em;
+  letter-spacing: -0.045em;
   color: rgba(0, 0, 0, 0.12);
   position: absolute;
-  top: -.25em;
+  top: -0.25em;
   left: 4.4rem;
 }
 
@@ -1495,14 +1497,13 @@ input::-moz-focus-inner {
  * responsive:
  * common and reusable styles
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .right-vert-line {
     right: 9rem;
   }
-
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .section-intro::before {
     font-size: 24rem;
   }
@@ -1511,10 +1512,9 @@ input::-moz-focus-inner {
     height: 16rem;
     right: 6.2rem;
   }
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .subhead {
     font-size: 1.3rem;
   }
@@ -1531,17 +1531,15 @@ input::-moz-focus-inner {
     height: 12rem;
     right: 5rem;
   }
-
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .display-1 {
     font-size: 4rem;
   }
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .section-intro {
     margin-bottom: 9.6rem;
   }
@@ -1549,10 +1547,9 @@ input::-moz-focus-inner {
   .section-intro::before {
     font-size: 20rem;
   }
-
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width: 360px) {
   .display-1 {
     font-size: 3.6rem;
   }
@@ -1560,10 +1557,7 @@ input::-moz-focus-inner {
   .section-intro::before {
     font-size: 18rem;
   }
-
 }
-
-
 
 /* ===================================================================
  * # site header
@@ -1581,8 +1575,8 @@ input::-moz-focus-inner {
 .s-header.offset {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .s-header.scrolling {
@@ -1631,8 +1625,8 @@ input::-moz-focus-inner {
   display: inline-block;
   margin: 0;
   padding: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   position: absolute;
@@ -1663,7 +1657,7 @@ input::-moz-focus-inner {
 
 .header-nav {
   list-style: none;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 6rem;
@@ -1696,14 +1690,14 @@ input::-moz-focus-inner {
   height: 4.2rem;
   width: 4.2rem;
   line-height: 4.2rem;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   color: #ffffff;
   outline: none;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   position: absolute;
   right: 5.2rem;
   top: 1.6rem;
@@ -1719,43 +1713,43 @@ input::-moz-focus-inner {
   width: 2.4rem;
   height: 2px;
   background-color: #ffffff;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
   margin-top: -1px;
   position: absolute;
   top: 50%;
-  left: .9rem;
+  left: 0.9rem;
   right: auto;
   bottom: auto;
 }
 
 .header-menu-toggle span::before,
 .header-menu-toggle span::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: inherit;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   position: absolute;
   left: 0;
 }
 
 .header-menu-toggle span::before {
-  top: -.9rem;
+  top: -0.9rem;
 }
 
 .header-menu-toggle span::after {
-  bottom: -.9rem;
+  bottom: -0.9rem;
 }
 
 .header-menu-toggle.is-clicked span {
   background-color: rgba(255, 255, 255, 0);
-  -webkit-transition: all .1s;
-  transition: all .1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
 }
 
 .header-menu-toggle.is-clicked span::before,
@@ -1789,6 +1783,7 @@ input::-moz-focus-inner {
   position: absolute;
   top: 50%;
   right: 8rem;
+  border-radius: 6px;
 }
 
 .header-content .btn:hover,
@@ -1801,7 +1796,7 @@ input::-moz-focus-inner {
  * responsive:
  * header
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1700px) {
+@media screen and (max-width: 1700px) {
   .header-logo {
     left: 6rem;
   }
@@ -1815,18 +1810,16 @@ input::-moz-focus-inner {
   .header-content .btn {
     right: 6rem;
   }
-
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .header-content .btn {
     height: 4.8rem !important;
     line-height: 4.4rem !important;
   }
-
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .s-header {
     top: 2rem;
     height: 8rem;
@@ -1894,10 +1887,12 @@ input::-moz-focus-inner {
   .menu-is-open .header-content {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transition: -webkit-transform 0.5s
+      cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1),
+      -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
 
   .menu-is-open .header-content .btn {
@@ -1909,12 +1904,12 @@ input::-moz-focus-inner {
     transition-property: opacity, -webkit-transform;
     transition-property: transform, opacity;
     transition-property: transform, opacity, -webkit-transform;
-    -webkit-transition-duration: .5s;
-    transition-duration: .5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-transition-delay: .7s;
-    transition-delay: .7s;
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
   }
 
   .menu-is-open .header-nav-wrap {
@@ -1924,13 +1919,12 @@ input::-moz-focus-inner {
     visibility: visible;
     -webkit-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-transition-delay: .6s;
-    transition-delay: .6s;
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
   }
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .header-logo {
     left: 4rem;
   }
@@ -1946,10 +1940,7 @@ input::-moz-focus-inner {
   .header-content .btn {
     display: block;
   }
-
 }
-
-
 
 /* ===================================================================
  * # hero
@@ -1972,9 +1963,15 @@ input::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, right top, color-stop(10%, black), to(rgba(0, 0, 0, 0)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(10%, black),
+    to(rgba(0, 0, 0, 0))
+  );
   background: linear-gradient(90deg, black 10%, rgba(0, 0, 0, 0) 100%);
-  opacity: .25;
+  opacity: 0.25;
 }
 
 .no-js .s-hero {
@@ -2000,6 +1997,7 @@ input::-moz-focus-inner {
   margin-top: 0;
   color: #ffffff;
   position: relative;
+  font-family: ui-sans-serif;
 }
 
 .hero-content h1::before {
@@ -2010,7 +2008,10 @@ input::-moz-focus-inner {
   background-color: #f9861a;
   position: absolute;
   left: -10.8rem;
-  top: .55em;
+  top: 0.55em;
+}
+.hero-content .li::before {
+  display: none;
 }
 
 /* -------------------------------------------------------------------
@@ -2025,14 +2026,14 @@ input::-moz-focus-inner {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   flex-flow: row wrap;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 3.2rem;
   text-transform: uppercase;
-  letter-spacing: .5em;
+  letter-spacing: 0.5em;
   margin-top: 8rem;
-  margin-left: .4rem;
+  margin-left: 0.4rem;
   margin-bottom: 0;
   position: relative;
 }
@@ -2052,7 +2053,7 @@ input::-moz-focus-inner {
 }
 
 .hero-social li::after {
-  content: '/';
+  content: "/";
   color: rgba(255, 255, 255, 0.1);
   margin-left: 0rem;
   margin-right: 1rem;
@@ -2086,8 +2087,8 @@ input::-moz-focus-inner {
 
 .hero-scroll .scroll-link,
 .hero-scroll .scroll-link svg path {
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .hero-scroll .scroll-link {
@@ -2162,7 +2163,6 @@ html.no-csstransitions .hero-content {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-
 }
 
 @keyframes fadeIn {
@@ -2179,7 +2179,6 @@ html.no-csstransitions .hero-content {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-
 }
 
 /* fade in left */
@@ -2197,7 +2196,6 @@ html.no-csstransitions .hero-content {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-
 }
 
 @keyframes fadeInLeft {
@@ -2214,7 +2212,6 @@ html.no-csstransitions .hero-content {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-
 }
 
 /* fade out */
@@ -2230,7 +2227,6 @@ html.no-csstransitions .hero-content {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
-
 }
 
 @keyframes fadeOut {
@@ -2245,14 +2241,13 @@ html.no-csstransitions .hero-content {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
-
 }
 
 /* ------------------------------------------------------------------- 
  * responsive:
  * hero
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1800px) {
+@media screen and (max-width: 1800px) {
   .hero-content h1 {
     font-size: 6.3rem;
   }
@@ -2261,24 +2256,21 @@ html.no-csstransitions .hero-content {
     width: 6rem;
     left: -8.8rem;
   }
-
 }
 
-@media screen and (max-width:1700px) {
+@media screen and (max-width: 1700px) {
   .hero-content {
     max-width: 1200px;
   }
-
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width: 1500px) {
   .hero-content {
     max-width: 1000px;
   }
-
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width: 1300px) {
   .hero-content {
     max-width: 1200px;
   }
@@ -2293,10 +2285,9 @@ html.no-csstransitions .hero-content {
     top: 0;
     left: 0;
   }
-
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .hero-scroll {
     right: 6rem;
   }
@@ -2309,10 +2300,9 @@ html.no-csstransitions .hero-content {
     height: 6rem;
     width: 6rem;
   }
-
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .hero-content h1 {
     font-size: 5.6rem;
   }
@@ -2320,10 +2310,9 @@ html.no-csstransitions .hero-content {
   .hero-social {
     font-size: 1.1rem;
   }
-
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .hero-content h1 {
     font-size: 4.8rem;
   }
@@ -2340,10 +2329,9 @@ html.no-csstransitions .hero-content {
     height: 5.2rem;
     width: 5.2rem;
   }
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .hero-content h1 {
     font-size: 4.6rem;
   }
@@ -2359,32 +2347,26 @@ html.no-csstransitions .hero-content {
   .hero-scroll {
     right: 2.4rem;
   }
-
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .hero-content h1 {
     font-size: 4.4rem;
     padding-right: 0;
   }
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .hero-content h1 {
     font-size: 4rem;
   }
-
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width: 360px) {
   .hero-content h1 {
     font-size: 3.8rem;
   }
-
 }
-
-
 
 /* ===================================================================
  * # about section
@@ -2455,10 +2437,10 @@ html.no-csstransitions .hero-content {
 }
 
 .position__header h6 {
-  font-family: "Martel", serif;
+  font-family: ui-sans-serif;
   line-height: 2.8rem;
   margin-top: 0;
-  margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
 }
 
 .position__header h6 .position__co {
@@ -2473,20 +2455,29 @@ html.no-csstransitions .hero-content {
 }
 
 .position__timeframe {
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 2rem;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   color: #7e7e7e;
+}
+
+.tagbox span {
+  background-color: rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+  padding: 1px 5px 0px 5px;
+  margin-bottom: 6px;
+  margin-left: 2px;
+  display: inline-block;
 }
 
 /* ------------------------------------------------------------------- 
  * responsive:
  * about
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .s-about__section--profile::before {
     left: 75%;
   }
@@ -2504,10 +2495,9 @@ html.no-csstransitions .hero-content {
   .work-positions .column:nth-child(2n + 2) {
     padding-left: 30px;
   }
-
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .work-positions .column:nth-child(n) {
     padding: 0 16px;
   }
@@ -2515,10 +2505,9 @@ html.no-csstransitions .hero-content {
   .position {
     padding-right: 8rem;
   }
-
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .s-about__section--profile {
     padding-top: 20rem;
     padding-bottom: 0;
@@ -2533,24 +2522,19 @@ html.no-csstransitions .hero-content {
   .position {
     padding-right: 0;
   }
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .work-positions .column:nth-child(n) {
     padding: 0 10px;
   }
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .work-positions .column:nth-child(n) {
     padding: 0;
   }
-
 }
-
-
 
 /* ===================================================================
  * # services section
@@ -2618,7 +2602,7 @@ html.no-csstransitions .hero-content {
 }
 
 .services-list__item-header h5 {
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 3.6rem;
   padding-left: 1.111em;
@@ -2629,20 +2613,20 @@ html.no-csstransitions .hero-content {
 .services-list__item-header h5::before {
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
-  font-family: "Work Sans", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 600;
-  font-size: .5em;
+  font-size: 0.5em;
   line-height: 1;
   color: #f9861a;
   position: absolute;
-  top: .5em;
+  top: 0.5em;
   left: 0;
 }
 
 .services-list__item-header::after {
   border-bottom: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
-  content: '';
+  content: "";
   display: block;
   height: 6px;
   width: 6px;
@@ -2653,8 +2637,8 @@ html.no-csstransitions .hero-content {
   top: 50%;
   -webkit-transform-origin: 66% 66%;
   transform-origin: 66% 66%;
-  -webkit-transition: all, .3s;
-  transition: all, .3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
@@ -2679,14 +2663,13 @@ html.no-csstransitions .hero-content {
  * responsive:
  * services
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .services-list {
     padding-left: 10px;
   }
-
 }
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width: 1040px) {
   .s-services .vert-line {
     height: 12rem;
     left: 16px;
@@ -2715,10 +2698,9 @@ html.no-csstransitions .hero-content {
     padding-left: 0;
     margin: 0;
   }
-
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .s-services {
     padding-top: 20rem;
   }
@@ -2729,10 +2711,9 @@ html.no-csstransitions .hero-content {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .s-services .vert-line {
     left: 34px;
   }
@@ -2740,17 +2721,15 @@ html.no-csstransitions .hero-content {
   .services-list__item-header h5 {
     font-size: 3.2rem;
   }
-
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .services-list__item-header h5 {
     font-size: 3rem;
   }
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .s-services .vert-line {
     left: 24px;
   }
@@ -2758,10 +2737,7 @@ html.no-csstransitions .hero-content {
   .services-list__item-header h5 {
     font-size: 2.8rem;
   }
-
 }
-
-
 
 /* ===================================================================
  * # portfolio
@@ -2796,7 +2772,6 @@ html.no-csstransitions .hero-content {
   position: relative;
   overflow: hidden;
   margin: 10px;
-
 }
 
 .folio-item__caption {
@@ -2807,7 +2782,7 @@ html.no-csstransitions .hero-content {
  *---------------------------------------------- */
 .folio-item__thumb a {
   display: block;
-
+  border-radius: 5px;
 }
 
 .folio-item__thumb a::before {
@@ -2822,14 +2797,15 @@ html.no-csstransitions .hero-content {
   left: 0;
   width: 100%;
   height: 100%;
-  -webkit-transition: all, .5s;
-  transition: all, .5s;
+  -webkit-transition: all, 0.5s;
+  border-radius: 8px;
+
+  transition: all, 0.5s;
 }
 
 .folio-item__thumb a::after {
   z-index: 1;
-  content: "+";
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 300;
   font-size: 3rem;
   color: #ffffff;
@@ -2849,13 +2825,14 @@ html.no-csstransitions .hero-content {
   position: absolute;
   left: 50%;
   top: 50%;
+  border-radius: 8px;
 }
 
 .folio-item__thumb img {
   vertical-align: bottom;
   border: 2px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
 }
-
 
 /* portfolio info
  *---------------------------------------------- */
@@ -2880,10 +2857,25 @@ html.no-csstransitions .hero-content {
   line-height: 1.333;
   margin: 0;
 }
+.folio-item__desc h4 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.333;
+  margin-top: 1rem;
+}
+.folio-item__desc p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 1.333;
+  margin-top: 1rem;
+}
 
 .folio-item__cat {
   color: rgba(255, 255, 255, 0.5);
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-size: 1.4rem;
   margin-bottom: 0;
 }
@@ -2891,13 +2883,13 @@ html.no-csstransitions .hero-content {
 .folio-item__project-link {
   z-index: 2;
   display: block;
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 2rem;
   color: #000000;
   background-color: #ffffff;
-  padding: .6rem 1.2rem;
+  padding: 0.6rem 1.2rem;
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translate3d(-100%, 0, 0);
@@ -2959,7 +2951,7 @@ html.no-csstransitions .hero-content {
  * responsive:
  * portfolio
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .s-portfolio::before {
     display: none;
   }
@@ -2975,10 +2967,24 @@ html.no-csstransitions .hero-content {
   .folio-item__cat {
     font-size: 1.2rem;
   }
-
+  .folio-item__desc h4 {
+    font-size: 1.5rem;
+  }
+  .folio-item__desc p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .s-porfolio__list {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .block-large-1-2 > .column {
+    max-width: 100% !important;
+  }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .s-portfolio {
     padding-top: 20rem;
   }
@@ -2994,10 +3000,15 @@ html.no-csstransitions .hero-content {
   .folio-item__cat {
     font-size: 1.4rem;
   }
-
+  .folio-item__desc h4 {
+    font-size: 2rem;
+  }
+  .folio-item__desc p {
+    font-size: 1.8rem;
+  }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .folio-item__thumb a::after {
     font-size: 2rem;
   }
@@ -3009,10 +3020,13 @@ html.no-csstransitions .hero-content {
   .folio-item__cat {
     font-size: 1.2rem;
   }
-
+  .folio-item__desc h4 {
+    font-size: 1.7rem;
+  }
+  .folio-item__desc p {
+    font-size: 1.6rem;
+  }
 }
-
-
 
 /* ===================================================================
  * # testimonials
@@ -3028,7 +3042,7 @@ html.no-csstransitions .hero-content {
 }
 
 .testimonial-slider p {
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 1.7rem;
   line-height: 1.882;
@@ -3110,7 +3124,7 @@ html.no-csstransitions .hero-content {
 
 .testimonial-slider__cite strong,
 .testimonial-slider__cite span {
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-style: normal;
 }
 
@@ -3130,7 +3144,7 @@ html.no-csstransitions .hero-content {
  * responsive:
  * testimonials
  * ------------------------------------------------------------------- */
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .testimonial-slider__slide {
     text-align: center;
   }
@@ -3138,10 +3152,9 @@ html.no-csstransitions .hero-content {
   .testimonial-slider__author {
     display: inline-block;
   }
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .testimonial-slider__author {
     margin: 0;
     padding: 0;
@@ -3151,10 +3164,7 @@ html.no-csstransitions .hero-content {
     position: static;
     margin-bottom: 2.4rem;
   }
-
 }
-
-
 
 /* ===================================================================
  * # CTA
@@ -3179,13 +3189,14 @@ html.no-csstransitions .hero-content {
 
 .cta-content .btn {
   max-width: 600px;
+  border-radius: 6px;
 }
 
 /* ------------------------------------------------------------------- 
  * responsive:
  * cta
  * ------------------------------------------------------------------- */
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .s-cta {
     font-size: 2rem;
   }
@@ -3193,17 +3204,13 @@ html.no-csstransitions .hero-content {
   .cta-content {
     max-width: 600px;
   }
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .s-cta {
     font-size: 1.8rem;
   }
-
 }
-
-
 
 /* ===================================================================
  * # footer
@@ -3221,7 +3228,7 @@ html.no-csstransitions .hero-content {
 }
 
 .s-footer__bottom {
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 8rem;
 }
@@ -3242,7 +3249,7 @@ html.no-csstransitions .hero-content {
  * ## contact block
  * ------------------------------------------------------------------- */
 .footer-contact-block {
-  font-family: "Gothic A1", sans-serif;
+  font-family: ui-sans-serif;
   font-weight: 400;
   font-size: 3rem;
   line-height: 1.2;
@@ -3250,6 +3257,7 @@ html.no-csstransitions .hero-content {
 
 .footer-contact-block a {
   color: #ffffff;
+  font-family: ;
 }
 
 .footer-contact-block a:hover,
@@ -3259,12 +3267,12 @@ html.no-csstransitions .hero-content {
 
 .footer-contact-block__content,
 .footer-contact-block__list li {
-  padding: .8rem 0;
+  padding: 0.8rem 0;
 }
 
 .footer-contact-block__list {
   list-style: none;
-  margin-top: .4rem;
+  margin-top: 0.4rem;
   margin-left: 0;
 }
 
@@ -3302,7 +3310,7 @@ html.no-csstransitions .hero-content {
 .ss-copyright span::after {
   content: "|";
   display: inline-block;
-  padding: 0 .8rem 0 1rem;
+  padding: 0 0.8rem 0 1rem;
   color: rgba(255, 255, 255, 0.1);
 }
 
@@ -3334,8 +3342,8 @@ html.no-csstransitions .hero-content {
   width: 6.4rem;
   border-radius: 50%;
   background-color: #000000;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   position: relative;
 }
 
@@ -3369,7 +3377,7 @@ html.no-csstransitions .hero-content {
  * responsive:
  * footer
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .ss-go-top {
     right: 6rem;
   }
@@ -3378,10 +3386,9 @@ html.no-csstransitions .hero-content {
     height: 6rem;
     width: 6rem;
   }
-
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .s-footer .footer-contacts {
     margin-left: 0;
   }
@@ -3392,10 +3399,9 @@ html.no-csstransitions .hero-content {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .s-footer {
     padding-top: 20rem;
   }
@@ -3412,10 +3418,9 @@ html.no-csstransitions .hero-content {
     height: 5.2rem;
     width: 5.2rem;
   }
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .ss-copyright {
     padding-right: 8rem;
   }
@@ -3432,5 +3437,4 @@ html.no-csstransitions .hero-content {
     right: 2.4rem;
     bottom: 4rem;
   }
-
 }
