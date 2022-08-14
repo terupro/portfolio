@@ -3026,6 +3026,9 @@ html.no-csstransitions .hero-content {
     font-size: 1.6rem;
     display: none;
   }
+  .folio-item__info {
+    top: 2rem;
+  }
 }
 
 /* ===================================================================
