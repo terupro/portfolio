@@ -41,7 +41,8 @@ body {
 
 body {
   background: #0b0a15;
-  font-family: "ui-sans-serif";
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3",
+    "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: normal;
@@ -3001,6 +3002,9 @@ html.no-csstransitions .hero-content {
   .folio-item__thumb a::after {
     font-size: 2rem;
   }
+  .s-porfolio__list {
+    padding: 0px !important;
+  }
 
   .folio-item__title {
     font-size: 1.8rem;
@@ -3015,9 +3019,6 @@ html.no-csstransitions .hero-content {
   .folio-item__desc p {
     font-size: 1.6rem;
     display: none;
-  }
-  .folio-item__info {
-    top: 2rem;
   }
 }
 
