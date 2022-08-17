@@ -1,8 +1,9 @@
 # portfolio
-HTML,CSS,JavaScriptを使用したポートフォリオサイト
+自身の活動や経歴をまとめて紹介するポートフォリオサイト
 
-# 画像
+# Image
 
-<img src="https://user-images.githubusercontent.com/92189386/176989993-fb7ac176-f05f-4317-b0bf-6a5cef97ea91.png" height="300">
+<img width="1435" alt="Screen Shot 2022-08-18 at 7 49 07" src="https://user-images.githubusercontent.com/92189386/185257023-43d133ba-b411-42e8-9de8-92009d4befdf.png">
+
 
 
